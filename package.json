@@ -1,0 +1,43 @@
+{
+  "name": "ZoroonJS",
+  "version": "0.0.1",
+  "description": "🌐 Zoroon - Browser-based scripting language runtime by Sholehuddin Khairy",
+  "main": "zoroon.core.js",
+  "type": "module",
+  "keywords": [
+    "zoroon",
+    "language",
+    "interpreter",
+    "javascript",
+    "custom-script",
+    "browser"
+  ],
+  "author": {
+    "name": "Sholehuddin Khairy",
+    "email": "mtf6@kyrt.my.id",
+    "url": "https://kyrt.my.id"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/KhairyK/zoroonjs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhairyK/zoroonjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KhairyK/zoroonjs/issues"
+  },
+  "files": [
+    "zoroon.core.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node zoroon.core.js",
+    "build": "npx terser zoroon.core.js --compress --mangle",
+    "test": "echo \"No tests yet for Zoroon\""
+  },
+  "engines": {
+    "node": "24.10.0"
+  }
+}
+
