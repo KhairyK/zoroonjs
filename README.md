@@ -18,7 +18,7 @@ writeHTML("<pre>" + JSON.stringify(data, null, 2) + "</pre>")
 printWarn("Jangan lupa belajar terus!")
 ```
 
-Atau Dengan Tag `<script src="Main.zrn" type="text/zoroon"></script>`
+Atau Dengan Tag `<script type="text/zoroon"></script>`
 ```html
 <script type="text/zoroon">
 go nama = "Sholehuddin"
