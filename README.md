@@ -34,6 +34,33 @@ printWarn("Jangan lupa belajar terus!")
 </script>
 ```
 
+## Cara Mendapatkannya
+
+1. Download Via NPM
+```bash
+# Jalankan Ini Ke Termux/Terminal kalian
+npm install zoroonjs
+```
+
+2. Git Clone
+```bash
+# Jalankan Ini Ke Termux/Terminal kalian
+git clone https://github.com/KhairyK/zoroonjs.git
+```
+
+3. CDN **npm**
+Copy Dan Paste Ke Akhir Tag `<body>`
+```html
+<script defer src="https://cdn.jsdelivr.net/npm/zoroonjs@latest/zoroon.core.js"></script>
+```
+
+4. CDN **gh**
+Copy Dan Paste Ke Akhir Tag `<body>`
+```html
+<script defer src="https://cdn.jsdelivr.net/gh/KhairyK/zoroonjs@0.0.1/zoroon.core.js"></script>
+```
+
+
 <footer align="center">
   <hr>
   <p>🌐 Zoroon Language v0.0.1</p>
