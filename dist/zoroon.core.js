@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 async function runZoroon(rawCode) {
-  console.log("%c⚙️ Zoroon Runtime v0.4.3 loaded", "color:#48f;font-weight:bold;");
+  console.log("%c⚙️ Zoroon Runtime v0.0.1 loaded", "color:#48f;font-weight:bold;");
 
   try {
     let code = rawCode
@@ -76,3 +76,4 @@ async function runZoroon(rawCode) {
     console.error("Error Zoroon:", e.message);
   }
 }
+
