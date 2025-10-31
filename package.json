@@ -1,6 +1,6 @@
 {
   "name": "ZoroonJS",
-  "version": "0.0.1",
+  "version": "0.0.1-f00f0fca0",
   "description": "🌐 Zoroon - Browser-based scripting language runtime by Sholehuddin Khairy",
   "main": "zoroon.core.js",
   "type": "module",
@@ -27,7 +27,7 @@
     "url": "https://github.com/KhairyK/zoroonjs/issues"
   },
   "files": [
-    "zoroon.core.js",
+    "dist/zoroon.core.js",
     "README.md",
     "LICENSE"
   ],
